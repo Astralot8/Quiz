@@ -1,0 +1,147 @@
+.answer__container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.answer__pretitle {
+    font-size: 20px;
+    line-height: 24px;
+    color: #dcdcf3;
+    display: flex;
+    align-items: center;
+}
+
+.answer__pretitle-arrow {
+    margin-inline: 15px;
+
+}
+
+.answer__test-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #6933dc;
+}
+
+.answer__title {
+    margin-top: 60px;
+}
+
+.answer__user-title {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333;
+}
+
+.answer__user-title-blue {
+    color: #6933dc;
+    font-family: 'Museo Sans Cyrl Bold', sans-serif;
+}
+
+.answer__questions {}
+
+.answer__question {}
+
+.answer__question-title {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-family: 'Museo Sans Cyrl Bold', sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    color: #333333;
+}
+
+.answer__question-title-blue {
+    color: #6933dc;
+}
+
+.answer__question-answers {}
+
+.answer__question-answer {
+    font-size: 20px;
+    color: #333;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.answer__question-answer:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.answer__question-answer-true{
+    color: #5fdc33;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.answer__question-answer-true:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.answer__question-answer-false{
+    color: #dc3333;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.answer__question-answer-false:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+
+.answer__circle {
+    width: 20px;
+    height: 20px;
+    margin-right: 13px;
+    border: 3px solid #6933dc;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.answer__circle-true{
+    border: 5px solid #5fdc33;
+    width: 20px;
+    height: 20px;
+    margin-right: 13px;
+    
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.answer__circle-false{
+    border: 5px solid #dc3333;
+    width: 20px;
+    height: 20px;
+    margin-right: 13px;
+    
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.answer__test-result {
+    margin-top: 60px;
+}
+
+.answer__test-result-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: right;
+    color: #6933dc;
+}
+
+.answer__test-result-link:hover {
+    text-decoration: underline;
+}
+
+.answer__test-result-image {
+    margin-left: 13px;
+}
